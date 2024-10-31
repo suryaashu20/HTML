@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" align="center" cellspacing="0" cellpadding="15" bordercolor="Blue">
+        <caption>
+            <h1> RowSpan, ColSpan In Table</h1>
+        </caption>
+        <tr>
+            <th>Employee Id</th>
+            <th>Employee Name</th>
+            <th>Department</th>
+            <th>Salary</th>
+            <th>Reporting Manager</th>
+            <th>Branch name</th>
+            <th>Company Nmae</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Ashitosh</td>
+            <td>IT</td>
+            <td>45000</td>
+            <td rowspan="2">Ram</td>
+            <td rowspan="3">WhiteField</td>
+            <td rowspan="4" valign="center">Safforn </td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Adarsh</td>
+            <td>Marketing</td>
+            <td>45000</td>
+            <!-- <td>Ram</td> we used rowsapn , combined 2 rows -->
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Retesh</td>
+            <td>Backend</td>
+            <td>45000</td>
+            <td>Sumit kumar</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>Bunty</td>
+            <td>Devops</td>
+            <td>45000</td>
+            <td>Director</td>
+            <td>Slikboard - Main Branch</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,166 @@
+        HTML -  Hyper text markup launguage.
+        it has collections of pre-defined tags.
+        it use to create basic structure webpage.
+        The html tags use to collect input from user and also used to diplay output to user via web browser.
+        html tags has limited proprty and values . due to this limitation css is required for look and fell and js is required for functionality.
+
+How it work?
+    responcive webpage = html(tags) + css(proprty and values)
+
+    Dynamic webpage = HTML(tags) +css(property & value) + Javascript(functionality)
+                     input/output   look and feel          process
+
+    
+    Tag ?
+        <> open tag
+        </> close tag
+
+
+    Types of tag?
+        1. input tags - it collect input form user via web browser
+        2.output tags - it display output to user via web browser
+
+    syntax / structure of tags
+        1. Dependent tag  - those html tags, that open and close seprate
+            As.
+                <html> </html>
+        2. Independent tag - those heml tags . that has only open but it is technologies dependent
+            As.
+                <br>
+                <hr>
+                <img>
+                note - The React JSX do not support independent tag
+
+        3. self closing tag - those html tags, that open and close togethre.
+            As.
+                <br/>
+                <hr/>
+                Note : it work with all technologies 
+            
+    => The behavior of html tags?
+        1.Block level tag 
+            => The block level tag print content in new line by default
+        2.inline tag 
+            => the inline tags print contents in same line (side by side) by default .
+
+
+    Note : Using css
+        -> inline tag -> convert => block level tag
+        -> Block level tag => convert => inline tag
+    This is called Responsive webpage design  
+========================================================================================================
+    The valid extension of html documnent
+        .html - it is best for digital mrketing 
+        .ht
+---------------------------------------------------------------------------------------------------
+    Strucure of html documnent 
+        tml start to end called documnent
+            it has 2 sub element
+                1. head
+                    ->markenting section + Analytics 
+                    ->libary section(css, js, extenal lib)
+                2.body
+                    -> input and output area 
+                    -> use tags based on contenets 
+
+ --------------------------------------------------------------------------------------------------
+
+    h1 to h6 = it is called heading tag
+                it create headline of webpage
+                h1 is required min and max 1 time in each page for better visibility
+
+----------------------------------------------------------------------------------------------------
+
+ Types of list in html 
+    1.UL - unorder list 
+        type="disc"
+        type="Squre"
+        type="circle"
+        type="none"
+        
+
+    2.ol - order list  
+        type="1"
+        type="A"
+        type="a"
+        type="I" - Upper case roman number
+        type="i" - Lower case roman number
+    3.DL - definition list   
+        ->dt - Definition title(it display headline of contenets)          
+        ->dd - defination details(it display details about contenets)
+
+=========================================================================================================
+    Table in html
+        1dt method 
+            => table 
+                -> caption
+                ->tr(table row)
+                    ->th(table heading)
+                    ->td(tabler data)
+        
+        2nd method
+            =>thead - it cover top part of table
+                ->tr
+                    ->th
+            ->tbody - it cover middle part of table
+                ->tr
+                    ->th
+            ->tfoot - it wil cover bottom part of table
+                ->tr
+                    ->th
+
+
+        property in table
+            => align (left, right, center, justify)
+            =>border
+            =>bordercolor
+            =>cellpadding - it apply space inside the th, td
+            =cellspacing - it apply space outsdide of th and td
+        => table.html
+            =>colspan - it use to combine space of 2 or more th or td (it combine left to right)
+            =>rowspan - it is use to combine space 2 or more tr (top to bottom)
+            =>table3.html
+                =>valign - top, middle, botton
+-------------------------------------------------------------------------------------------------------------------------
+      List of html input tags   
+        =>text
+        =>number
+        =>Email
+        =>Password
+        =>File
+        =>date
+        =>Select
+        =>Checkbox
+        =>Radio
+        =>textArea
+        =>Button
+            1.submit
+            2.Reset
+            3.button 
+        ->form tag (all above tags are part / child of form tags) 
+
+------------------------------------------------------------------------------------------------------------------------------
+
+    List of property in input tags
+        ->placeholder - it is for input guidance
+        ->size - proprty - it resize width of (text, email, password)
+        ->maxlenght - it set limit for input in (text, passowrd, email, text area)
+        ->rows - it increse height of text area.
+        ->cols - it increse width of text area.
+        ->tabindex - it increse to set sequence of cursor.
+        ->Name - it craete a container to pass value to backend langaauge.
+
+    form tag = 
+        ->ACTION - it used to set path/url of backed where the form data should be submited.
+        ->Method - Type of communication( either secure or unsequer) between client and server
+                    it is following  type
+                        1.get -it pass that via url and fully visible (unsecure)
+                        2.post -it passdata in hiddenn (secure)
+                        3.patch - it pass data in hidden mode()
+                        4.delete
+                        5.put 
+
+    form1.html 
+        
+    
+        
